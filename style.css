@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(bg1.jpg);
+  background-size: 100% 100%;
+}
+nav {
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5% 10px 5%;
+  background-color: rgb(22, 20, 20);
+  opacity: 0.8;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.logo {
+  color: white;
+  margin-left: 30px;
+}
+span {
+  color: red;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: red;
+  transition: 0.4s;
+}
+.home {
+  width: 100%;
+  padding: 100px 0px;
+  align-items: center;
+}
+.home img {
+  height: 500px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+.home .text-content {
+  width: 100%;
+  max-width: 550px;
+}
+.home .content {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.home .text-content h4 {
+  color: rgb(165, 87, 87);
+  font-size: 25px;
+}
+.home .text-content h1 {
+  color: white;
+  font-size: 40px;
+}
+.home .text-content h3 {
+  color: white;
+}
+
+/* ABout Me */
+.about {
+  background-image: url(peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+  width: 100%;
+  align-items: center;
+}
+.about img {
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  margin: 100px 0 100px 50px;
+}
+.about .text-content {
+  color: white;
+  width: 100%;
+  max-width: 550px;
+  align-items: center;
+}
+.about .content {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer {
+  background-color: rgb(113, 8, 8);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer .media {
+  padding: 1rem 0;
+}
+footer .media a {
+  color: black;
+  margin: 1rem;
+}
+footer .media a:hover {
+  color: red;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
